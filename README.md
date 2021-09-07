@@ -42,6 +42,16 @@ python3 cbexpensive.py
 ```
 3. After the script runs, it will generate the results as ".csv" in the directory where it is located.
 
+Config File
+-
+<pre>
+[APIKEY]
+API_KEY = apikey
+[URL]
+CB_URL = https://1.1.1.1
+CB_PORT = 80
+</pre>
+
 Example
 -
 Query|ExecutionTime|NumberofWildcard|WildcardwithFilemod|WildcardwithModload|EqualOperator|NumberofOROperator
