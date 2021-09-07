@@ -31,11 +31,11 @@ This tool checks all the watchlists in the product for the cases specified in th
 * Is wildcard used with "filemod" operand ?
 * Query Execution Time (last execution time)
 * Number of "OR" operator use
-* Is there a use of equals instead of colons with any operand ?
+* Is there usage of equals instead of colons with any operand ?
 
 Usage
 -
-1. Url, port, and Carbon Black API Key fields are entered in the config file.
+1. Url, port, and Carbon Black API Key fields must be entered in the config file.
 2. Config file and script must be in the same directory. Then the script can be run as follows:
 ```console
 python3 cbexpensive.py
